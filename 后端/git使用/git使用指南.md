@@ -220,3 +220,29 @@ git log
 git log --pretty=oneline
 ```
 
+### git删除暂存区的文件
+
+```
+git rm --cache 文件名
+```
+
+### 删除错误提交的commit
+
+```
+//仅仅只是撤销已提交的版本库，不会修改暂存区和工作区
+git reset --soft 版本库ID
+//仅仅只是撤销已提交的版本库和暂存区，不会修改工作区
+git reset --mixed 版本库ID
+//彻底将工作区、暂存区和版本库记录恢复到指定的版本库
+git reset --hard 版本库ID
+```
+
+### git本地操作
+
+```
+# 查看状态
+git status
+# 撤销工作区改动
+git restore file
+```
+

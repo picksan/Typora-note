@@ -91,7 +91,7 @@ clean:
     #rm -f 无需确认,删除
 ```
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\e6f27c99764d43de94d0d7e0bd00de17\clipboard.png)
+![20210710132636](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710182919.png)
 
 ```
 #2021/3/30

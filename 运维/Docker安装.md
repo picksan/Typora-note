@@ -104,7 +104,7 @@ $ sudo systemctl start docker
 
 `docker run hello-world`
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\29b4ebce7c4f4b349f88468251bb4864\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185926.png)
 
 ## **镜像加速**
 

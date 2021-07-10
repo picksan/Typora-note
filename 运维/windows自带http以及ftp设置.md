@@ -10,25 +10,25 @@
 
 1.为windows开启http功能：控制面板->程序和功能->启用或关闭windows功能
 
-![image-20210529171931672](C:\Users\10341\AppData\Roaming\Typora\typora-user-images\image-20210529171931672.png)
+![image-20210529171931672](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185944.png)
 
 2.勾选Internet information services（IIS）的ftp服务器（可选），web管理工具，万维网服务
 
-![image-20210529172123035](C:\Users\10341\AppData\Roaming\Typora\typora-user-images\image-20210529172123035.png)
+![image-20210529172123035](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185949.png)
 
 3.安装完后，需要配置，进入
 
 重新进去控制面板，找到管理工具
 
-![image-20210529172327158](C:\Users\10341\AppData\Roaming\Typora\typora-user-images\image-20210529172327158.png)
+![image-20210529172327158](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710190402.png)
 
 点击IIS管理器
 
-![image-20210529172405612](C:\Users\10341\AppData\Roaming\Typora\typora-user-images\image-20210529172405612.png)
+![image-20210529172405612](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185953.png)
 
 根据需要配置
 
-![image-20210529172447963](C:\Users\10341\AppData\Roaming\Typora\typora-user-images\image-20210529172447963.png)
+![image-20210529172447963](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185958.png)
 
 ftp站点需要自己添加，右击网站添加ftp站点
 

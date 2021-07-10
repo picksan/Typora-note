@@ -120,7 +120,7 @@ ln -s file.txt /home/pi/file-link.txt
 
 **/home/pi/file-link.txt** 是一个软链接文件
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\b30c334d5ea3429ba49f7dc1a6628e60\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185748.png)
 
 3.新建空文件
 
@@ -260,11 +260,11 @@ gcc demo.c -o demo
 
 终端中就会显示c程序运行的结果
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\d7c2cb54744244b4984bed5a71f85a20\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185755.png)
 
 nano界面
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\043d87de4b7d454f838f8fe3818fe153\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185759.png)
 
 停止某个正在运行的程序，比如下载，安装某程序时，太慢
 
@@ -314,7 +314,7 @@ ps -eo pid,cmd
 
 ps命令 -e表示列出全部进程，-eo pid,cmd 选项表示我们需要的信息
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\9cc7063bc3a340149e7b57b8d983f6e6\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185807.png)
 
 返回结果分两列，每一行代表一个进程
 
@@ -390,13 +390,13 @@ grep命令检查一段文本流中是否包含有特定的文本。
 
 grep abc
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\60d8f4471bbc4118b41b2428da8cb270\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185815.png)
 
 可以重定向grep的标准输入，让输入内容来自文件而不是键盘
 
 grep abc < content.txt
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\5a3d0282ae0d44429982b408f2403722\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185822.png)
 
 在重新定向标准输入的同时，可以重新定向标准输出
 
@@ -410,7 +410,7 @@ echo Hello | grep lo
 
 命令echo的功能是把作为参数的文本输出到标准输出。管道把echo输出导入grep命令。这里的grep命令是从文本流中寻找"lo"字符串。由于输入的"Hello"中包含"lo"，所以grep命令会打印出"Hello"
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\5c12e3dbaec1470f8a60f644f446e09f\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185827.png)
 
 linux的各个命令实际上高度专业化，并相互独立，每个命令都只关注一个小的功能。但通过管道，我们可以把这些功能合在一起，实现一些复杂的目的。比如，我们想从一个文件中找出所有包含Tom的行，并按照字母表排序。文件input.txt内容如下：
 
@@ -464,7 +464,7 @@ who am i
 
 who
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\eb30411b31b743908a22da007a7125eb\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185833.png)
 
 在Linux中可以用文本的用户名来指代一个用户。比如用write命令可以用来给同一Linux下的其他用户发信息。用户anna发信息给lvor
 
@@ -476,7 +476,7 @@ echo "where is your draft?" | write lvorec
 
 groups
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\dcbac4d76f824d5b9a1c5bf083d32e13\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185840.png)
 
 返回用户anna所在组
 
@@ -486,7 +486,7 @@ groups anna
 
 id pi
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\10fee80ca74c4cc1bb9023d367a15579\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185844.png)
 
 **root用户和用户创建**
 
@@ -498,7 +498,7 @@ root用户容易误操作，为避免类似的灾难，linux引入了sudo
 
 如果普通用户有权使用sudo，那么他可以使用sudo来以root身份执行命令。由于sudo是临时地扩张用户权限，误操作的概率会大大降低
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\2926e0955c3f4c198d0a45fa3ad6ebf5\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185848.png)
 
 创建新用户
 
@@ -522,7 +522,7 @@ sudo groupdel genius
 
 Linux的用户信息保存在/etc/passwd中，通过这个文件，可以对操作系统的用户和组进行总览。
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\5504d4a2e3cb4cf88727390aaf8f5868\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185853.png)
 
 每一行的含义
 
@@ -550,7 +550,7 @@ mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 
 ls -l file.txt
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\5f62fc07e0e9412b950a6c5e83a01f99\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185900.png)
 
 返回部分可以分为5个部分
 
@@ -566,7 +566,7 @@ ls -l file.txt
 
 r读w写x执行
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\0d2c566ba73d404aa01b06fbfc700d63\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185904.png)
 
 文件权限管理
 

@@ -74,7 +74,7 @@ $ docker container logs [container ID or NAMES] hello world hello world hello wo
 
 此外，docker container restart 命令会将一个运行态的容器终止，然后再重新启动它。
 
-![img](F:\有道云笔记本地文件\qq823E5030A20E3C20029980C0F5685093(1)\42b361ad0d294dc7a0f714d1405ab116\clipboard.png)
+![img](https://cdn.jsdelivr.net/gh/picksan/picgo//pic/20210710185936.png)
 
 **进入容器**
 
